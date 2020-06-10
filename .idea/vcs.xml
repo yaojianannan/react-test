@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/React DevTools/react-devtools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ant-demo/ant-design-pro" vcs="Git" />
   </component>
 </project>
