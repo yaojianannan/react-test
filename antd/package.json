@@ -1,0 +1,19 @@
+{
+  "name": "antd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "@umijs/preset-react": "^1.4.7",
+    "umi": "^3.2.3"
+  }
+}
