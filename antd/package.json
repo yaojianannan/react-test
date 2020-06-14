@@ -13,7 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^4.2.1",
+    "@umijs/core": "^3.2.3",
     "@umijs/preset-react": "^1.4.7",
+    "cheerio": "^1.0.0-rc.3",
     "umi": "^3.2.3"
+  },
+  "dependencies": {
+    "@antv/g2": "^4.0.10"
   }
 }

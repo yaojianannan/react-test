@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "antd/",
+			"problemMatcher": [],
+			"label": "npm: install - antd",
+			"detail": "install dependencies from package"
+		}
+	]
+}

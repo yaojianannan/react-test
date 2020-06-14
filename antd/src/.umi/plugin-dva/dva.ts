@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { ApplyPluginsType } from 'umi';
 import dva from 'dva';
 // @ts-ignore
-import createLoading from 'C:/react/antd/node_modules/_dva-loading@3.0.20@dva-loading/dist/index.esm.js';
+import createLoading from 'E:/react/react-test/antd/node_modules/_dva-loading@3.0.20@dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
 
 let app:any = null;
@@ -28,7 +28,8 @@ export function _onCreate(options = {}) {
   (runtimeDva.plugins || []).forEach((plugin:any) => {
     app.use(plugin);
   });
-  app.model({ namespace: 'puzzlecards', ...(require('C:/react/antd/src/model/puzzlecards.js').default) });
+  app.model({ namespace: 'list', ...(require('E:/react/react-test/antd/src/model/list.js').default) });
+app.model({ namespace: 'puzzlecards', ...(require('E:/react/react-test/antd/src/model/puzzlecards.js').default) });
   return app;
 }
 

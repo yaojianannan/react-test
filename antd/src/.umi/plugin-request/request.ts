@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Base on https://github.com/umijs/C:/react/antd/node_modules/_umi-request@1.3.3@umi-request
+ * Base on https://github.com/umijs/E:/react/react-test/antd/node_modules/_umi-request@1.3.3@umi-request
  */
 import {
   extend,
@@ -13,14 +13,14 @@ import {
   RequestResponse,
   RequestInterceptor,
   ResponseInterceptor,
-} from 'C:/react/antd/node_modules/_umi-request@1.3.3@umi-request';
+} from 'E:/react/react-test/antd/node_modules/_umi-request@1.3.3@umi-request';
 // @ts-ignore
 
 import { ApplyPluginsType } from 'umi';
 import { history, plugin } from '../core/umiExports';
             
 import { message, notification } from 'antd';
-import useUmiRequest from 'C:/react/antd/node_modules/_@umijs_use-request@1.4.3@@umijs/use-request';
+import useUmiRequest from 'E:/react/react-test/antd/node_modules/_@umijs_use-request@1.4.3@@umijs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -36,7 +36,7 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from 'C:/react/antd/node_modules/_@umijs_use-request@1.4.3@@umijs/use-request/lib/types';
+} from 'E:/react/react-test/antd/node_modules/_@umijs_use-request@1.4.3@@umijs/use-request/lib/types';
 
 type ResultWithData<T = any> = { data: T; [key: string]: any };
 

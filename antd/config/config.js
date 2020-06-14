@@ -24,7 +24,19 @@ export default {
    {
     path: '/puzzlecard',
     component: './PuzzleCards',
+   },
+   {
+    path: '/list',
+    component: './list',  
    }
-  ]
+  ],
+
+  proxy: {
+    "/api": {
+      target: "http://localhost:3005",
+      changeOrigin: true,
+      pathRewrite: { "^/dpi": "" } // 把 api 重写掉
+    }
+  },
  }],
 };

@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from 'C:/react/antd/src/.umi/plugin-initial-state/models/initialState';
+import initialState from 'E:/react/react-test/antd/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from 'C:/react/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from 'E:/react/react-test/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/dispatcher';
 // @ts-ignore
-import Executor from 'C:/react/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/executor';
+import Executor from 'E:/react/react-test/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/executor';
 // @ts-ignore
-import { UmiContext } from 'C:/react/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from 'E:/react/react-test/antd/node_modules/_@umijs_plugin-model@2.3.1@@umijs/plugin-model/lib/helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

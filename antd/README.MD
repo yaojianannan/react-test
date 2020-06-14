@@ -15,3 +15,5 @@ serve ./dist
 ## 注意package.json文件---cnpm i --save-dev
 ## 页面显示中文乱码问题---查看代码文件的编码格式是否是utf-8，若不是，请改成utf-8
 ## 如果不是使用箭头函数，注意函数尾是否添加了括号
+
+## 使用model请求数据时，需先开启official_joke_api

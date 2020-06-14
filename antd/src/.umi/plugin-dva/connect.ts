@@ -6,7 +6,8 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from 'C:/react/antd/src/model/puzzlecards';
+export * from 'E:/react/react-test/antd/src/model/list';
+export * from 'E:/react/react-test/antd/src/model/puzzlecards';
 
 export interface Action<T = any> {
   type: T

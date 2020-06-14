@@ -1,15 +1,15 @@
 // @ts-nocheck
-import { ApplyPluginsType } from 'C:/react/antd/node_modules/_@umijs_runtime@3.2.3@@umijs/runtime';
+import { ApplyPluginsType } from 'E:/react/react-test/antd/node_modules/_@umijs_runtime@3.2.3@@umijs/runtime';
 import { plugin } from './plugin';
 
 const routes = [
   {
     "path": "/",
-    "component": require('C:/react/antd/src/layout').default,
+    "component": require('E:/react/react-test/antd/src/layout').default,
     "routes": [
       {
         "path": "/helloworld",
-        "component": require('C:/react/antd/src/page/HelloWorld').default,
+        "component": require('E:/react/react-test/antd/src/page/HelloWorld').default,
         "exact": true
       },
       {
@@ -17,27 +17,41 @@ const routes = [
         "routes": [
           {
             "path": "/dashboard/analysis",
-            "component": require('C:/react/antd/src/page/Dashboard/Analysis').default,
+            "component": require('E:/react/react-test/antd/src/page/Dashboard/Analysis').default,
             "exact": true
           },
           {
             "path": "/dashboard/monitor",
-            "component": require('C:/react/antd/src/page/Dashboard/Monitor').default,
+            "component": require('E:/react/react-test/antd/src/page/Dashboard/Monitor').default,
             "exact": true
           },
           {
             "path": "/dashboard/workplace",
-            "component": require('C:/react/antd/src/page/Dashboard/Workplace').default,
+            "component": require('E:/react/react-test/antd/src/page/Dashboard/Workplace').default,
             "exact": true
           }
         ]
       },
       {
         "path": "/puzzlecard",
-        "component": require('C:/react/antd/src/page/PuzzleCards').default,
+        "component": require('E:/react/react-test/antd/src/page/PuzzleCards').default,
+        "exact": true
+      },
+      {
+        "path": "/list",
+        "component": require('E:/react/react-test/antd/src/page/list').default,
         "exact": true
       }
-    ]
+    ],
+    "proxy": {
+      "/api": {
+        "target": "http://localhost:3005",
+        "changeOrigin": true,
+        "pathRewrite": {
+          "^/dpi": ""
+        }
+      }
+    }
   }
 ];
 

@@ -3,8 +3,8 @@ import './core/polyfill';
 import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'C:/react/antd/node_modules/_@umijs_runtime@3.2.3@@umijs/runtime';
-import { renderClient } from 'C:/react/antd/node_modules/_@umijs_renderer-react@3.2.3@@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from 'E:/react/react-test/antd/node_modules/_@umijs_runtime@3.2.3@@umijs/runtime';
+import { renderClient } from 'E:/react/react-test/antd/node_modules/_@umijs_renderer-react@3.2.3@@umijs/renderer-react/dist/index.js';
 
 
 
